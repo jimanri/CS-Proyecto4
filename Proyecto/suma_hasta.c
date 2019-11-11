@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <assert.h>
 
-int sumar_hasta(int n){
+int sumar_hasta(int N){
     int sum;
     sum = 0;
-    while (n != 0){
-        sum += n;
-        n--;
+    while (N != 0){
+        sum += N;
+        N--;
     }
     printf("%d \n",sum);
     return 0;
